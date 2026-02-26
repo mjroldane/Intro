@@ -8,3 +8,5 @@ st.image(image, caption="matildaRelajada.jpeg")
 
 texto=st.text_input("ingresa texto", "texto inicial")
 st.write("el texto que haz escrito es",texto)
+if st.button("presiona el boton"):
+  st.write("has presionado")
